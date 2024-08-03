@@ -6,4 +6,5 @@ target
 /.classpath
 /.project
 /.settings
+/conf/secrets.conf
 /RUNNING_PID
