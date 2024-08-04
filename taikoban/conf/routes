@@ -9,3 +9,20 @@ GET     /                           controllers.AppController.index()
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 GET     /sum/:first/:second         controllers.AppController.printSum(first:Long, second: Long)
+
+#GET     /profile/:profileId         controllers.
+#GET     /leaderboard/:amount/:page  controllers.
+#GET     /leaderboard                controllers
+#GET     /song/:songId
+
+#POST   /profile/login
+#POST   /profile/newProfile
+#POST   /song/newSong
+#POST   /song/newScore
+
+#PUT    /song/:songId
+#PUT    /profile/:profileId
+
+#DELETE /song/:songId
+#DELETE /profile/:profileId
+#DELETE /song/score/:scoreId
